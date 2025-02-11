@@ -39,7 +39,7 @@ def report(contents):
     for i in sorted_dict:
         if i in alc:
             print(f"The '{i}' character was found {sorted_dict[i]} times")
-
+    print("--- End report ---")
     return    
 
 main()
